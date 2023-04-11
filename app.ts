@@ -11,6 +11,7 @@ class App {
     public env: string;
     public port: number;
 
+
     public constructor() {
         this.app = express();
         this.app.use(express.json());
